@@ -393,17 +393,4 @@ body {
     opacity: 1;
 }
 
-/* 播放狀態指示器 */
-.video-container.playing::after {
-    content: '▶';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    pointer-events: none;
-    opacity: 0.8;
-}
 /* 手機端優化：減少文字空間佔用，改善影片顯示 */
