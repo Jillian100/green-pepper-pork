@@ -406,3 +406,4 @@ body {
     pointer-events: none;
     opacity: 0.8;
 }
+/* 手機端優化：減少文字空間佔用，改善影片顯示 */
